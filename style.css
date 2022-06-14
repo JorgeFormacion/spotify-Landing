@@ -1,0 +1,235 @@
+/* RESET CSS*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+}
+
+nav img{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+}
+
+nav ul{
+    display: inline-block;
+    float: right;
+    margin-top: 1.5rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header
+{
+    clear: both;
+    background:url("../images/landing.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header h2{
+    font-size: 4rem;
+    margin-top: -2rem;
+}
+
+header span{
+    font-size: 1.5rem;
+}
+
+section {
+
+}
+
+section h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+section h2 span{
+    text-align: center;
+    width: 6rem;
+    border-bottom: 2.5px solid #00B172;
+}
+
+section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div article{
+    display: block;
+    margin-left: 50px;
+
+}
+
+section div article img{
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    display: block;
+    padding: 25px;
+}
+
+
+section div article .title{
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00B172;
+}
+
+section div article .txt{
+    display: block;
+}
+
+section.green{
+    background-color: #00B172;
+    color: #FFF;
+    text-align: left;
+}
+
+section.green article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+    font-size: 2rem;
+}
+
+section.green article img#logoSpotify{
+    height: 5rem;
+    width: 5rem;
+}
+
+
+section.green article img#spotifyApp{
+    height: 25rem;
+    top: -25%;
+}
+
+section.green article h3 span{
+    text-decoration-style: solid;
+    border-bottom: 2px solid #FFF;
+}
+
+section.green article div{
+    width: 300px;
+    display: block;
+}
+
+section.green article div span.title{
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+section.green article div span.subtitle{
+    font-size: 1rem;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav img{
+        display: block;
+        width: 5rem;
+        height: 1.75rem;
+        padding-top: 1rem;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 7.5px;
+        font-weight: bold;
+    }
+
+    header div article{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    header div h2{
+        font-size: 1.5rem;
+    }
+
+    
+    header div span{
+        font-size: 0.75rem;
+    }
+
+    section div {
+        display: block;
+    }
+    section div article{
+        text-align: center;
+        margin-left: 0px;
+    }
+    section article img#logoSpotify{
+        display: none;
+    }
+
+    section.green article{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    section.green article div{
+        padding: 5px;
+    }
+  }
+/*
+Colors:
+    background-color: red;
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
